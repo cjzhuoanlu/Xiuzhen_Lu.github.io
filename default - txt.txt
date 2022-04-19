@@ -1,0 +1,62 @@
+<HTML>
+
+<BR>
+
+<HEAD>
+<TITLE>
+Xiuzhen's World
+</TITLE>
+</HEAD>
+<BODY background="pic/speckled.jpg">
+
+<table BORDER=0 WIDTH="95%" >
+<tr>
+     <td ALIGN=CENTER VALIGN=CENTER>
+	<table BORDER=0 >
+	   <tr>
+	     <td ALIGN=RIGHT><a
+	     href="pic/xiuzhen2.jpg"><img
+	     SRC="pic/xiuzhen2.jpg" ALT="Xiuzhen Lu" height=206 width=158></a>
+	     </td>
+	   </tr>
+	 </table>
+      
+      </td>  <td>
+
+          <ul>
+              <h1>Xiuzhen Lu</h1>
+          </ul>
+
+          </ul>
+
+      <BR>
+	
+      </td>
+</tr>
+</table>
+
+<BR>
+<HR>
+<BR>
+<BR>
+	<!- <pre>  <!  Tel & Fax:  803-257-6059  </pre>
+		Xiuzhen Lu is a dedicated family lady in Augusta, Georgia. She has been a realtor working with Century 21 
+Larry Miller Realty since 2013, receiving many hornors and awards. Xiuzhen is willing to listen her client's needs and provide 
+appropriate suggestions for the next steps. Her exerperience, knowledge, and skills ensure the clients to obtain the right information
+and to help them to make the right decision. Her negociating ability is an accet to help the clients to buy or sell with ideal prices.
+She speaks Chinese and English and has license in both Georgia and South Carolina.  
+	<h2>
+	<pre>	     [<A   HREF="publication.pdf">Publication</A>]    [<A   HREF="education.html">Education</A>]    [<A   HREF="pictures.html">Pictures</A>]     [<A   HREF="wushu.html">Exercise</A>]
+	</pre>
+	</h2>
+	<!- <pre>	<!- E-mail:<A HREF="mailto:xlu@c21larrymiller.com"> <!- xlu@c21larrymiller.com</A> </pre> 
+<BR>
+<HR>
+<BR>
+
+
+
+
+
+</BODY>
+</HTML>
