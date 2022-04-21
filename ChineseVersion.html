@@ -1,0 +1,209 @@
+
+
+
+<HTML>
+
+<! -- <BODY background="pic/bg10.gif">
+
+ <BODY background="pic/speckled.jpg">
+
+<head>
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="myDiv">
+  <h1>卢秀珍，房地产经纪人</h1>
+  <h1>21世纪地产</h1>
+  <h1>Century 21, Larry Miller Realty</h1>
+</div>
+
+</body>
+
+
+
+<!-- A table with one row and two columns, the first of which is a talbe again-->
+<table BORDER=0 WIDTH="95%" >
+<tr>
+
+ 
+ <td>
+    <HR>
+          <ul>
+		<p style="font-size: 25px"> 作为房地产经纪人，卢秀珍有10年经验，一直在“21世纪地产”工作，获得许多荣誉和奖励。
+		</p>
+		<p style="font-size: 25px"> 她懂得客户的需求，听取他们的意见，给出合理的建议，帮助做出理想的决定。秀珍能够把握市场的变化，及时为您提供准确的信息。
+		</p>
+		<p style="font-size: 25px"> 她的经验和知识以及讨价还价的能力能够帮助客户用理想的价钱买到心仪的房子或出售现有的房子。
+		</p>
+		<p style="font-size: 25px"> 秀珍生活在佐治亚州的奥古斯塔， 有该州和南卡莱罗那两个州的房地产经纪人执照，讲中英文两种语言。
+		</p>
+		<p style="font-size: 25px"> 她很顾家，先生是南卡莱罗那大学艾肯分校教授，从事数学教学和研究。
+		</p>
+ 	  </ul>
+
+     <BR>
+	
+  </td>
+
+     <td ALIGN=CENTER VALIGN=CENTER>
+	<table BORDER=0 >
+	   <tr>
+	     <td ALIGN=RIGHT><a
+	     href="pic/xiuzhen1.jpg"><img
+	     SRC="pic/xiuzhen1.jpg" ALT="Xiuzhen Lu"   height=236 width=178></a>
+	     </td>
+	   </tr>
+	 </table>
+  </td>  
+
+  <td>
+   <HR>
+          <ul>
+		<dt style="font-size: 25px"> 联系方式 
+ 	  </ul>
+	<ul>
+
+		
+		<dl>
+		<dt style="font-size: 21px"> Email： xlu@c21LarryMiller.com  
+		<dt style="font-size: 21px"> 微信： xiuzhenL63 
+		<dt style="font-size: 21px"> Office： 706-860-0000
+		<dt style="font-size: 21px"> Cell： 803-257-6059
+		</dl>
+
+		<dl>
+		<dt style="font-size: 23px"> 地址： 235 N Belair Rd, Evans, GA 30809
+		</dl>
+	</ul>
+      <BR>
+	
+      </td>
+</tr>
+</table>
+
+
+<HR>  <!-- Draw a horizontal line -->
+
+
+<!-- Image table -->
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=.5">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;  	<!-- 100/4 = 25. Thus 25% means 4 pictures in a row -->
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+
+<body>
+
+<div style="text-align:center">
+  <h2>Selected Awards</h2>
+  <p>Click on the Images below for Bigger Images:</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="pic/Xiuzhen2021Award.jpg" alt="2021 Award" style="width:80%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="pic/Xiuzhen2020Emerald.jpg" alt="2020 Award" style="width:80%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="pic/Xiuzhen2018Emerald.jpg" alt="2018 Award" style="width:80%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="pic/Xiuzhen2017Emerald.jpg" alt="2017 Award" style="width:80%" onclick="myFunction(this);">
+  </div>  
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:50%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+</body>				<!-- End of image table -->
+
+
+
+<BR>
+
+
+
+
+</BODY>
+</HTML>
